@@ -1,0 +1,525 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hai",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for visiting NCSM I am SMA at your Service",
+                "Good to see you again I am SMA at your Service",
+                "Hi there I am SMA at your Service, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting NCSM again",
+                "Have a nice day",
+                "Bye! Come back to museum soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                " I am Science Assistant Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What hours are you open?",
+                "What are your hours?",
+                "When are you open?"
+            ],
+            "responses": [
+                "Normally We're open every day 9.30am-6.30pm but due to pandamic we are close for visitor now.",
+                "Our hours are  9.30am-6.30pm every day but due to pandamic we are close for visitor now"
+            ]
+        },
+        {
+            "tag": "shows",
+            "patterns": [
+                "What kind of shows do you have?",
+                "What kinds of shows are there?",
+                "What do you hvae for visitor?",
+                "What do you hvae for us?",
+                "show detais",
+                "show",
+                "type of shows",
+                "what shows",
+                "what kind of shows"
+            ],
+            "responses": [
+                "we have numbers of shows in our 25 centers like 3D, 4D",
+                "we have numbers of shows in our 25 centers like 3D, 4D"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Are you cash only?",
+                "What is payment mode?",
+                "What kind of payment mode?",
+                "accept cash or card?",
+                "your payment?",
+                "how can I make your payment?",
+                "what payment you accept?",
+                "what do you accept other then card?",
+                "Science Center cash or card",
+                "Science museums cash or card",
+                "museums cash"
+            ],
+            "responses": [
+                "Presently we are taking cash only but soon we will offer online ticketing",
+                "Now We accept cash only"
+            ]
+        },
+        {
+            "tag": "ticketPrice",
+            "patterns": [
+                "What is the entry fee of your museums?",
+                "Ticket price of your center?",
+                "please tell me the price of ticket?",
+                "please share you entry fee?",
+                "Entry to your museums are fee?",
+                "entry to your center is paid or not?",
+                "What price you sell ticket?",
+                "can i enter your center without ticket?",
+                "do you allow visitor to entry without ticket?",
+                "your ticket is too costly?",
+                "price please?",
+                "price?"
+            ],
+            "responses": [
+                " We are non prifit organizaton. ticket is collected for collecting part of operation fee @ Rs 50/- from visitor",
+                "we charge nominal amount of Rs 50/- per entry",
+                "Enter the world of science @50/- only"
+            ]
+        },
+        {
+            "tag": "opentoday",
+            "patterns": [
+                "Are you open today?",
+                "When do you open today?",
+                "What are your hours today?",
+                "What is your opening hours",
+                "can you please tell your opening hours?",
+                "Are you open everyday?",
+                "what is the working hours of NCSM centers?",
+                "Is your center open on sunday?",
+                "center operating hours",
+                "Science Museums opening time?",
+                "Museums visiting times?"
+            ],
+            "responses": [
+                "Normally We're open every day 9.30am-6.30pm but due to pandamic we are close for visitor now.",
+                "Our hours are  9.30am-6.30pm every day but due to pandamic we are close for visitor now"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "what's your age?",
+                "what is your age?",
+                "who created you?",
+                "who are you?",
+                "what is your name?",
+                "what's your name?",
+                "what is your sex?",
+                "are you male?",
+                "are you female?",
+                "do you fuck?",
+                "want to fuck you",
+                "tell me about yourself",
+                "tell me about you",
+                "please introduce yourself",
+                "introduce yourself",
+                "introduce"
+            ],
+            "responses": [
+                "I am science museums assistant bot created by Shatadal Ghosh on 27-July-2020 for CRTL  so please aslk me question about Science Museum(NCSM)."
+            ]
+        },
+        {
+            "tag": "ncsm_no_of_center",
+            "patterns": [
+                "how many science center do you have?",
+                "how many science centers are there?",
+                "total how many centers ncsm has?",
+                "how many center ncsm has",
+                "how many centers are there all over india?",
+                "number of center you have?",
+                "what is the number of center of ncsm?",
+                "how many mmuseums are there under your control?",
+                "number of science museums you have?",
+                "do you have 25 centers?",
+                "how many science museums",
+                "how many museums"
+            ],
+            "responses": [
+                "NCSM has 25 center all over india directly under its administrative control."
+            ]
+        },
+        {
+            "tag": "nationalcenter",
+            "patterns": [
+                "Please tell me the names of your national centers?",
+                "ncsm national level centers",
+                "what are the national level centers of ncsm",
+                "may i know the names of national centers of ncsm",
+                "number of national center of ncsm",
+                "how many national level center are there",
+                "national center",
+                "Please tell me the no of national center",
+                "NCSM has four national level centers",
+                "what are the major centers of NCSM?",
+                "list down the names of national level centers of ncsm"
+            ],
+            "responses": [
+                " NCSM has four national level centers 1.BITM 2. VITM 3. NSCM 4. NSCD and one CEntral Research And Training Laboratery (CRTL) "
+            ]
+        },
+        {
+            "tag": "NSCD",
+            "patterns": [
+                "NSCD",
+                "NSC Delhi",
+                "National Science Center Delhi",
+                " tell me something about National Science center"
+            ],
+            "responses": [
+                "The National Science Centre established in 1992, is a science museum in Delhi, India. It is part of the National Council of Science Museums, an autonomous body under India's Ministry of Culture. It stands close to Gate no 1, of Pragati Maidan"
+            ]
+        },
+        {
+            "tag": "NSCM",
+            "patterns": [
+                "NSCM",
+                "NSC Mumbai",
+                "nehru science centre"
+            ],
+            "responses": [
+                "Nehru Science Centre is the largest interactive science centre in India. It is located in Worli, Mumbai. The centre is named after India's first Prime Minister, Jawaharlal Nehru. In 1977, the centre started with the Light and Sight exhibition, and then in 1979 a Science Park was built."
+            ]
+        },
+        {
+            "tag": "BITM",
+            "patterns": [
+                "BITM",
+                "BIRLA INDUSTRIAL and TECHNOLOGICAL MUSEUM",
+                "BIRLA INDUSTRIAL and TECHNOLOGICAL MUSEUM kolkata",
+                "tell me something about BIRLA INDUSTRIAL and TECHNOLOGICAL MUSEUM"
+            ],
+            "responses": [
+                "The first science museum in India was set up by the industrialist Ghanshyam Das Birla at BITS, in Pilani in a hall (185 sq.mt area) of the Tower Building. The museum depicted mainly the industries and business enterprises of the Birlas. The museum was opened to the public in 1954. Ten years later the museum was shifted to the present building."
+            ]
+        },
+        {
+            "tag": "VITM",
+            "patterns": [
+                "VITM",
+                "Visvesvaraya Industrial and Technological Museum",
+                "Visvesvaraya Industrial and Technological Museum Bangalore",
+                "tell me something about Visvesvaraya Industrial and Technological Museum"
+            ],
+            "responses": [
+                "The Visvesvaraya Industrial and Technological Museum, Bangalore, India, a constituent unit of the National Council of Science Museums, Ministry of Culture, Government of India, was established in memory of Bharat Ratna Sir M Visvesvaraya. The building, with a built up area of 4,000 m\u00c2\u00b2, was constructed in Cubbon Park."
+            ]
+        },
+        {
+            "tag": "CRTL",
+            "patterns": [
+                "CRTL",
+                "CRTL Kolkata",
+                "Central Research and Training Laboratery",
+                "Central Research & Training Laboratory Kolkata",
+                "tell me something about Central Research and training laboratery"
+            ],
+            "responses": [
+                "The substantial growth in the infrastructure of the Science Centre network in India generated continuous demand for technology augmented exhibits and a training base for development of skill and capability in design and fabrication of efficient exhibits and equipment for meaningful science communication. For this purpose, the Central Research & Training Laboratory (CRTL) of the National Council of Science Museums was established as a part of the NCSM headquarters facilities at Salt Lake, Kolkata."
+            ]
+        },
+        {
+            "tag": "directorcrtl",
+            "patterns": [
+                "Who is director CRTL?",
+                "Name of director CRTL?",
+                "Director CRTL",
+                "Mention Director CRTL",
+                "May i know the name of director CRTL",
+                "Who is your director crtl",
+                "Who is Director Central Research and training Laboratery"
+            ],
+            "responses": [
+                "Shri Anurag Kumar Curator G"
+            ]
+        },
+        {
+            "tag": "directorncsm",
+            "patterns": [
+                "Who is director ncsm?",
+                "Name of director ncsm?",
+                "Director ncsm",
+                "Mention Director nscm",
+                "May i know the name of director ncsm",
+                "director hqrs",
+                "name of Director Hqrs",
+                "Who is director hqrs?",
+                "who is your director hqrs",
+                "who is director headquarters",
+                "director headquarters"
+            ],
+            "responses": [
+                "Shri Shamrendra Kumar Curator G"
+            ]
+        },
+        {
+            "tag": "directorgeneral",
+            "patterns": [
+                "Who is director general ncsm?",
+                "Name of director general ncsm?",
+                "Director general ncsm",
+                "Mention Director general nscm",
+                "May i know the name of director general ncsm",
+                "director general",
+                "name of DG ncsm",
+                "Who is DG NCSM?",
+                "who is your DG",
+                "DG"
+            ],
+            "responses": [
+                "Shri A D Chaudhary Curator H"
+            ]
+        },
+        {
+            "tag": "directorbitm",
+            "patterns": [
+                "Who is director BITM?",
+                "Name of director BITM?",
+                "Director BITM",
+                "Mention Director BITM",
+                "May i know the name of director BITM",
+                "Who is your director BIRLA INDUSTRIAL and TECHNOLOGICAL MUSEUM",
+                "director BIRLA INDUSTRIAL and TECHNOLOGICAL MUSEUM"
+            ],
+            "responses": [
+                "Shri V. S. Ramachandran Curator G"
+            ]
+        },
+        {
+            "tag": "directorvitm",
+            "patterns": [
+                "Who is director VITM?",
+                "Name of director VITM?",
+                "Director VITM",
+                "Mention Director VITM",
+                "May i know the name of director VITM",
+                "Who is your director Visvesvaraya Industrial and Technological Museum",
+                "director BIRLA INDUSTRIAL and TECHNOLOGICAL MUSEUM"
+            ],
+            "responses": [
+                "Shri Modangopal Curator G"
+            ]
+        },
+        {
+            "tag": "directornscd",
+            "patterns": [
+                "Who is director NSCD?",
+                "Name of director NSCD?",
+                "Director NSCD",
+                "Mention Director NSCD",
+                "May i know the name of director NSCD",
+                "Who is your director NSCD",
+                "director NSC Delhi",
+                "director National Science Center Delhi"
+            ],
+            "responses": [
+                "Shri D Ramsharma Curator G"
+            ]
+        },
+        {
+            "tag": "directornscm",
+            "patterns": [
+                "Who is director NSCM?",
+                "Name of director NSCM?",
+                "Director NSCM",
+                "Mention Director NSCM",
+                "May i know the name of director NSCM",
+                "Who is your director NSCM",
+                "director NSC Mumbai",
+                "director NNehru Science Centre Mumbai"
+            ],
+            "responses": [
+                "Shri S M Khaned Curator G"
+            ]
+        },
+        {
+            "tag": "directorsccity",
+            "patterns": [
+                "Who is director Science city?",
+                "Name of director Science city?",
+                "Director Science city",
+                "Mention Director Science city",
+                "May i know the name of director Science city",
+                "Who is your director Science city",
+                "director Science city Kolkata"
+            ],
+            "responses": [
+                "Shri s Chaudhary Curator G"
+            ]
+        },
+        {
+            "tag": "Whatcovid",
+            "patterns": [
+                "Who is COVID?",
+                "What is COVID-19?",
+                "Tell me about COVID virus",
+                "what is CORONA virus",
+                "please tell me something about CORONAVIRUS",
+                "tell me something about Covid-19",
+                "I want to know more about CORONAVIRUS",
+                "CORONAVIRUS is deadly"
+            ],
+            "responses": [
+                "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness."
+            ]
+        },
+        {
+            "tag": "Covidspread",
+            "patterns": [
+                "How COVID is spread",
+                "tell me the ways of COVID spread",
+                "How does COVID spread in human",
+                "How COVID19 is spread",
+                "tell me the ways of COVID-19 spread",
+                "How does COVID-19 spread in human",
+                "How Coronavirus is spread",
+                "tell me the ways of Coronavirus spread",
+                "How does Coronavirus spread in human",
+                "How corona is spread",
+                "tell me the ways of Corona spread",
+                "How does Corona spread in human"
+            ],
+            "responses": [
+                "The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it\u00e2\u20ac\u2122s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow)."
+            ]
+        },
+        {
+            "tag": "preventcovid",
+            "patterns": [
+                "How to stop spreading of COVID?",
+                "Can Covid spread be stopped",
+                "is there any ways to stop spread of COVID",
+                " Tell the ways i can stop spread of COVID",
+                "How to stop spreading of COVID-19?",
+                "Can Covid-19 spread be stopped",
+                "is there any ways to stop spread of COVID19",
+                " Tell the ways i can stop spread of COVID-19",
+                "How to stop spreading of Coronavirus ?",
+                "Can Coronavirus spread be stopped",
+                "is there any ways to stop spread of Coronavirus",
+                " Tell the ways i can stop spread of Coronavirus"
+            ],
+            "responses": [
+                "The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face."
+            ]
+        },
+        {
+            "tag": "covidairborn",
+            "patterns": [
+                "Is the coronavirus disease airborne transmitted",
+                "Coronavirus is airborn",
+                "can you tell Coronavirus is airborn or not",
+                "does coronavirus is airborn",
+                "Is the corona disease airborne transmitted",
+                "Corona is airborn",
+                "can you tell Corona is airborn or not",
+                "does corona is airborn",
+                "Is the covid19 disease airborne transmitted",
+                "COVID-19 is airborn",
+                "can you tell COVID-19 is airborn or not",
+                "does COVID-19 is airborn",
+                "Is the COVID disease airborne transmitted",
+                "COVID is airborn",
+                "can you tell COVID is airborn or not",
+                "does COVID is airborn"
+            ],
+            "responses": [
+                "According to current evidence, COVID-19 virus is primarily transmitted between people through respiratory droplets and contact routes. In an analysis of 75,465 COVID-19 cases in China, airborne transmission was not reported."
+            ]
+        },
+        {
+            "tag": "visit",
+            "patterns": [
+                "Can we visit you gallery?",
+                "I'd like to visit NCSM",
+                "I would like to visit your museums?",
+                "I would like to visit science show?",
+                "what is the best time to visit you?",
+                "Can i come to your center today?",
+                "is NCSM center open today?",
+                "do you want to welcome me today?",
+                "are your center ready today?"
+            ],
+            "responses": [
+                "Are you looking to visit today or later?"
+            ],
+            "context_set": "visitday"
+        },
+        {
+            "tag": "today",
+            "patterns": [
+                "today"
+            ],
+            "responses": [
+                "Physical Visit to our museums are closed due to COVID you can visit us online at www.crtllive.tk",
+                "WE are close now. visit www.ctrllive.tk"
+            ],
+            "context_filter": "visitday"
+        },
+        {
+            "tag": "shatadal",
+            "patterns": [
+                "who is test",
+                "do you know test",
+                "mention test",
+                "who is test"
+            ],
+            "responses": [
+                "shatadal is Curator C posted at CRTL"
+            ]
+        },
+        {
+            "tag": "ai",
+            "patterns": [
+                "what is AI",
+                "tell me about atrificial intelegence",
+                "do you know about AI",
+                "i want to know about AI"
+            ],
+            "responses": [
+                "AI is a test"
+            ]
+        }
+    ]
+}
